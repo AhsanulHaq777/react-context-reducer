@@ -10,6 +10,7 @@ const Child2 = () => {
             <h1>This is Temperature Reducer Child</h1>
             <h2>Temperature is: {state} Degree</h2>
             <button className='button-color' onClick={()=>dispatch('INCREMENT')}>Increment Temperature Reducer</button>
+            <button className='button2-color' onClick={()=>dispatch('DECREMENT')}>Decrement Temperature Reducer</button>
         </div>
     )
 }

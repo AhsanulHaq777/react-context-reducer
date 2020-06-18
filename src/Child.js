@@ -9,6 +9,7 @@ const Child = ()=> {
             <h1>This is Temperature Context Child</h1>
             <h2>Temperature is: {temperatureValue[0]} Degree</h2>
             <button className='button-color' onClick={()=>{temperatureValue[1](++temperatureValue[0])}}>Increment Temperature Context</button>
+            <button className='button2-color' onClick={()=>temperatureValue[1](--temperatureValue[0])}>Decrement Temperature Context</button>
         </div>
     ) 
 }

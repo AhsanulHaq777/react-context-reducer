@@ -7,7 +7,10 @@
   color: rgb(255, 255, 255);
   background-color: darkred;
 }
-
+.button2-color{
+  color:black;
+  background-color: skyblue;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
